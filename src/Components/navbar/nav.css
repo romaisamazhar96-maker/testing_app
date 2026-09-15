@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0b0b0b;
+  border-bottom: 1px solid #1a1a1a;
+  width: 100%;
+}
+.Logo {
+  height: 35px;
+  object-fit: contain;
+}
+.menulist {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.menulist a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.menulist a:hover {
+  color: #c4ef17;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.talk-btn {
+  background-color: #c4ef17;
+  color: #000000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.menu-icon {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.menu-icon span {
+  width: 20px;
+  height: 2px;
+  background-color: #000000;
+}
