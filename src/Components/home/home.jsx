@@ -5,6 +5,8 @@ import "./home.css";
 import Services from "../Services/Services";
 import Testimonial from "../Testimonal/Testimonal";
 import About from "../About/About";
+import Blog from "../Blogs/Blogs";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
     return (
@@ -60,7 +62,7 @@ const Home = () => {
         <works/>
         <Services/>
         <Testimonial/>
-        <Blogs/>
+        <Blog/>
         <Contact/>
         </>
     );

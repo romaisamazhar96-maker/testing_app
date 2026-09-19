@@ -26,7 +26,7 @@ const Contact = () => {
               <textarea placeholder="Write Comments" rows="5"></textarea>
             </div>
             <button type="submit" className="submit-btn">
-              Submit Comment
+              Submit Comment &rarr;
             </button>
           </form>
         </div>
@@ -78,7 +78,7 @@ const Contact = () => {
           Copyright &copy; 2025 <span className="green-text">Matias</span>. All rights reserved.
         </p>
         <div className="footer-links">
-          <a href="#terms">Terms &amp; Condition</a>
+          <a href="#terms">Terms & Condition</a>
           <a href="#privacy">Privacy Policy</a>
         </div>
         <button className="scroll-top-btn" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
