@@ -1,5 +1,4 @@
 import { useState } from 'react'
-// import hello from './assets/name of phto.jpg'
 import './App.css'
 import Navbar from './Components/navbar/nav'
 import Home from './Components/home/home'

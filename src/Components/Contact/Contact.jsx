@@ -26,7 +26,7 @@ const Contact = () => {
               <textarea placeholder="Write Comments" rows="5"></textarea>
             </div>
             <button type="submit" className="submit-btn">
-              Submit Comment &rarr;
+              Submit Comment
             </button>
           </form>
         </div>
@@ -52,7 +52,7 @@ const Contact = () => {
       <div className="contact-footer-top">
         <div className="footer-left-info">
           <p className="footer-bio">
-            Hello, I'm David Matias, Website &amp; User Interface Designer based in London.
+            Hello, I'm David Matias, Website User Interface Designer based in London.
           </p>
           <a href="mailto:Davidmatias333@Gmail.Com" className="footer-email">
             Davidmatias333@Gmail.Com
