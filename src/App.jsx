@@ -11,6 +11,20 @@ import Contact from './Components/Contact/Contact'
 import { Routes,Route, Router } from 'react-router-dom'
 
 function App() {
+  // const [count, setCount] =useState(0)
+  // const [show, setShow] =useState(true)
+  // const updateCount =()=>{
+  //   setCount(count + 1)
+  // }
+  // const restCount =()=>{
+  //   setCount(0)
+  // }
+  // const hideCount =()=>{
+  //   setShow(false)
+  // }
+  // const displayCount =()=>{
+  //   setShow(!show)
+  // }
   return (
     <>
     <Navbar/>
@@ -23,6 +37,16 @@ function App() {
     <Route path='/Blog' element={<Blogs/>}/>
     <Route path='/Contact' element={<Contact/>}/>
     </Routes>
+    {/* <center>
+      {show && <h1>{count}</h1>}
+      <button onClick={updateCount}>Click to update Button</button>
+      <br></br>
+      <button onClick={restCount}>Click to Reset Button</button>
+      <br></br>
+      <button onClick={hideCount}>Click to Hide Button</button>
+      <br></br>
+      <button onClick={displayCount}>{(show)?'Hide Count':'Show Count'}</button>
+    </center> */}
 
 </>
   )
